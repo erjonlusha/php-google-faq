@@ -41,16 +41,31 @@ $querys=[
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google Privacy & Termini</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>
+    <header>
+        <nav>
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="">
+            <span>Privacy & Termini</span>
+        </nav>
+        <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li class="border">Domande frequenti</li>
+        </ul>
+    </header>
+    <main>
         <?php 
             foreach($querys as $query=>$val) { ?>
                 <h2><?php echo $query; ?></h2>
                 <p><?php echo $val; ?></p>
             <?php }
         ?> 
-    </p>
+    </main>
+    <footer></footer>
 </body>
 </html>

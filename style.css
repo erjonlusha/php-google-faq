@@ -1,0 +1,32 @@
+img.logo{width: 74px;}
+
+ul{padding: 0;}
+ul>li{
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+}
+
+nav{
+    padding: 20px;
+}
+
+.border{border-bottom: 1px solid rgba(0, 26, 255, 0.932)}
+
+span{
+    font-size: 26px;
+    vertical-align: bottom;
+
+}
+main{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    background-color: lightgray;
+    height: 30px;
+}
